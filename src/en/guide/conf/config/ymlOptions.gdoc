@@ -19,3 +19,11 @@ run {
     systemProperties = System.properties
 }
 {code}
+
+For testing the following will need to change the @test@ task as follows
+
+{code:java}
+test { 
+    systemProperties = System.properties 
+}
+{code}
